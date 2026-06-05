@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+cryptography = "*"
+holidays = "*"
+numpy = "*"
+openpyxl = "*"
+pdfplumber = "*"
+pyautogui = "*"
+pywin32 = "*"
+selenium = "*"
+selenium-stealth = "*"
+twocaptcha = "*"
+undetected-chromedriver = "*"
+watchdog = "*"
+watchfiles = "*"
+webdriver-manager = "*"
+pandas = "*"
+ipykernel = "*"
+scikit-learn = "*"
+seaborn = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
+python_full_version = "3.13.3"
